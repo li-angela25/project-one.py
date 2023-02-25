@@ -1,3 +1,18 @@
+"""
+GAME EXPLANATION:
+Idea credit: Snake Game by Peaksel
+Player must control an automatically moving snake by tilting a microbit to change its direction. When the snake touches the wall, the player loses. 
+The snake must collect as much "food" as possible by touching the dimly lit object. 
+
+VARIABLE EXPLANATION:
+snake_x is the x-value of the snake, and snake_y is the y-value of the snake
+food_x is the x-value of the food, and food_y is the y-value of the food
+right_button, left_button, up_button, down_button: when enabled (given a value of True by 
+tilting the microbit), the snake will continue to move in the given direction. These variables do not represent a physical button being pressed; rather, 
+they simply denote the direction of the snake
+frame_count: number of frames that have passed
+speed: the number of frames it takes for the snake to move one pixel forward
+"""
 #Imports
 from microbit import *
 import random

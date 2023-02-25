@@ -78,7 +78,6 @@ while True:
         #Level 2: 2 second wait-time
         music.play(music.POWER_UP)
         speed = 4
-        snake_body = True
         score += 1
         continue
     if score == 11:

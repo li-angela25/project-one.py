@@ -46,20 +46,16 @@ while True:
         up_button = False
         down_button = True
     #Automatic Moving
-    if right_button == True:
-        if frame_count == speed:
+    if right_button == True and frame_count == speed:
             snake_x += 1
             frame_count = 0
-    if left_button == True:
-        if frame_count == speed:
+    if left_button == True and frame_count == speed:
             snake_x -= 1
             frame_count = 0
-    if up_button == True:
-        if frame_count == speed:
+    if up_button == True and frame_count == speed:
             snake_y -= 1
             frame_count = 0
-    if down_button == True:
-        if frame_count == speed:
+    if down_button == True and frame_count == speed:
             snake_y += 1
             frame_count = 0
 
